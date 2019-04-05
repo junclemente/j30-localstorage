@@ -12,3 +12,7 @@ This project is a practice in writing vanilla JavaScript and to learn about othe
 
 
 #### Project takeaways
+* `localStorage` - A way to store data locally. It can only be stored as a string therefore objects must be converted to string format.
+* `JSON.stringify` - Used to convert the object array into a string so that it can be stored in localStorage.
+* `JSON.parse` - Used to read localStorage and convert the string into an array of objects. 
+* `e.preventDefault()` - When clicking Submit on a form, the default action of the page is to go to another page or refresh. This prevents that from happening. 
